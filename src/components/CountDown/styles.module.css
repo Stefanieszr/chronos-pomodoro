@@ -1,0 +1,10 @@
+.container {
+  text-align: center;
+  font-size: clamp(
+    8rem,
+    30vw,
+    16rem
+  ); /* tornar o font-size dinâmico, com min e max */
+  font-weight: bold;
+  line-height: 1.3;
+}
